@@ -114,8 +114,11 @@ body.dark {
 }
 
 @media screen and (max-width: 305px) {
+  body {
+    min-height: 100%;
+  }
   .title {
-    font-size: 3em;
-    line-height: 40px;
+    font-size: 2em;
+    line-height: 27px;
   }
 }
