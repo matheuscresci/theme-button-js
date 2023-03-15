@@ -98,3 +98,24 @@ body.dark {
 .pro {
   color: #ffa44d;
 }
+
+@media screen and (max-width: 770px) {
+  .title {
+    font-size: 4em;
+    line-height: 54px;
+  }
+}
+
+@media screen and (min-width: 540px) {
+  .title {
+    font-size: 5em;
+    line-height: 64px;
+  }
+}
+
+@media screen and (max-width: 305px) {
+  .title {
+    font-size: 3em;
+    line-height: 40px;
+  }
+}
